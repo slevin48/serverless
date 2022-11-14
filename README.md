@@ -14,4 +14,4 @@ For serving web assets, consider a content delivery network (CDN). Amazon CloudF
 * [serverless/examples](https://github.com/serverless/examples/)
 * [examples/aws-python-flask-api](https://github.com/serverless/examples/tree/master/aws-python-flask-api)
 * [Tutorial Serverless](https://newrelic.com/blog/best-practices/create-a-serverless-function-in-python)
-* [aws/chalice](
+* [aws/chalice](https://github.com/aws/chalice)
