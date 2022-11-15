@@ -9,9 +9,48 @@ For short running tasks, like a stateless web service (often reffered to as [RES
 
 For serving web assets, consider a content delivery network (CDN). Amazon CloudFront is an AWS service built specifically for this purpose. Her is a guide on how to use it with S3 and other options: [Using various origins with CloudFront distributions](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/DownloadDistS3AndCustomOrigins.html)
 
+## Chalice
+
+![](https://aws.github.io/chalice/_static/img/chalice-logo-icon-small.png)
+
+repo: [aws/chalice](https://github.com/aws/chalice) - website: [aws.github.io/chalice/](https://aws.github.io/chalice/)
+
+---
+
+First create a virtual environment
+```
+python -m venv env
+.\env\Scripts\activate
+```
+Once activated, install Chalice
+```
+(env) pip install -r requirements.txt
+```
+Then create a new project:
+```
+chalice new-project helloworld
+```
+
+Move to the created project folder:
+```
+cd helloworld
+code app.py
+```
+
+Create a simple REST API:
+```python
+from chalice import Chalice
+
+app = Chalice(app_name="helloworld")
+
+@app.route("/")
+def index():
+    return {"hello": "world"}
+```
+
+
 ## Resources
 
 * [serverless/examples](https://github.com/serverless/examples/)
 * [examples/aws-python-flask-api](https://github.com/serverless/examples/tree/master/aws-python-flask-api)
 * [Tutorial Serverless](https://newrelic.com/blog/best-practices/create-a-serverless-function-in-python)
-* [aws/chalice](https://github.com/aws/chalice)
