@@ -48,6 +48,26 @@ def index():
     return {"hello": "world"}
 ```
 
+Simply deploy the lambda function:
+```
+chalice deploy
+```
+
+Delete the function once you stop playing:
+```
+chalice delete
+```
+
+
+### Tuto video
+[streamlit-streamlit_app-2022-11-14-22-11-15.webm](https://user-images.githubusercontent.com/12418115/201817792-1ea00a76-aa99-468e-96f7-2b7217add872.webm)
+
+Call REST API from Postman 
+![image](https://user-images.githubusercontent.com/12418115/201817921-999befd8-f69c-4d36-a02f-010c7b127851.png)
+
+Finally the Lambda function can be managed from the AWS console:
+![image](https://user-images.githubusercontent.com/12418115/201818285-4977245a-0c56-4e9b-8f7a-9d9f664bda4e.png)
+
 
 ## Resources
 
