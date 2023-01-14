@@ -68,6 +68,8 @@ Call REST API from Postman
 Finally the Lambda function can be managed from the AWS console:
 ![image](https://user-images.githubusercontent.com/12418115/201818285-4977245a-0c56-4e9b-8f7a-9d9f664bda4e.png)
 
+## Deploy serverless container with Fargate
+https://github.com/slevin48/fargate
 
 ## Resources
 
