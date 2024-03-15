@@ -79,4 +79,6 @@ https://github.com/slevin48/fargate
 * [Running TensorFlow on AWS Lambda using Serverless](https://medium.com/@mike.p.moritz/running-tensorflow-on-aws-lambda-using-serverless-5acf20e00033)
 * [RealPython Tutorial](https://realpython.com/aws-chalice-serverless-python/)
 * [Using Chalice to serve SageMaker predictions](https://julsimon.medium.com/using-chalice-to-serve-sagemaker-predictions-a2015c02b033)
-*[AWS Chalice — Painless Serverless Adventure](https://awstip.com/aws-chalice-painless-serverless-adventure-2-a7aa5f93840f) - [last part (in turkish)](https://kemalcanbora.medium.com/aws-chalice-ac%C4%B1s%C4%B1z-serverless-ser%C3%BCveni-3-61a57d9a248e)
+* [AWS Chalice — Painless Serverless Adventure](https://awstip.com/aws-chalice-painless-serverless-adventure-2-a7aa5f93840f) - [last part (in turkish)](https://kemalcanbora.medium.com/aws-chalice-ac%C4%B1s%C4%B1z-serverless-ser%C3%BCveni-3-61a57d9a248e)
+* [Building Serverless Python Apps Using AWS Chalice](https://realpython.com/aws-chalice-serverless-python/)
+* [Render, Fly.io & Railway: PaaS Container Deployment in 2024](https://alexfranz.com/posts/deploying-container-apps-2024/)
